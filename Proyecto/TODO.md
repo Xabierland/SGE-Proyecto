@@ -6,10 +6,10 @@
 
 - [X] Buscar el mercado objetivo.
   - [ ] Buscar nuevas fuentes de analisis tecnicos.
-- [ ] Buscar producto
-- [ ] Buscar competencia
-- [ ] Buscar proveedores
-- [ ] Buscar clientes
+- [ ] Buscar producto (Resumen orientado al mercado)
+- [ ] Buscar competencia (Resumen orientado al mercado)
+- [ ] Buscar proveedores (Resumen orientado al mercado)
+- [ ] Buscar clientes (Resumen orientado al mercado)
 
 ### Competencia
 
