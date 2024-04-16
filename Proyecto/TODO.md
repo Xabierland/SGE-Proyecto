@@ -47,4 +47,25 @@
 
 ## Fase 2
 
+### Estructura empresarial
+
+- [X] Hacer la estructura empresarial.
 - [ ] Arreglar la estructura empresarial.
+- [ ] Calcular los costes de la estructura empresarial.
+
+### Infraestructura
+
+- [ ] Redactar la infraestructura necesaria.
+- [ ] Calcular los costes de la infraestructura.
+
+### Procesos
+
+- [ ] Redactar los procesos necesarios.
+
+### Productos/Servicios ofertados (Expandido)
+
+- [ ] Buscar servicios (Nombres, Descripción, Precio compra, Precio de venta, Beneficios)
+
+## Fase 3 Implementación de la solución
+
+## Fase 4 Presentación de los resultados
