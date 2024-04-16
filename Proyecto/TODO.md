@@ -5,27 +5,35 @@
 ### Mercado objetivo
 
 - [X] Buscar el mercado objetivo.
-- [ ] Buscar nuevas fuentes de analisis tecnicos.
+  - [ ] Buscar nuevas fuentes de analisis tecnicos.
+- [ ] Buscar producto
 - [ ] Buscar competencia
 - [ ] Buscar proveedores
 - [ ] Buscar clientes
 
 ### Competencia
 
-- [ ] 
+- [ ] Productos de la competencia (Nombre, Descripción, Precio)
+- [ ] Servicios de la competencia (Nombre, Descripción, Precio)
 
-### Productos/Servicios ofertados
+### Proveedores
 
-- [ ] Buscar productos/servicios de la competencia (Nombres precio de venta)
-- [ ] Buscar productos/servicios de los proveedores (Nombres, precio de compra)
+- [ ] Productos de los proveedores (Nombre, Descripción, Precio)
+- [ ] Servicios de los proveedores (Nombre, Descripción, Precio)
+
+### Clientes
+
+- [ ] A quien se lo vamos a vender.
+- [ ] Que le vamos a vender
+
+### Productos/Servicios ofertados (Resumen, se expandirá en la fase 2)
+
+- [ ] Buscar servicios (Nombres, Descripción)
+- [ ] Buscar productos (Nombres, Descripción)
 
 ### Fuerzas de Porter
 
 - [X] Buscar las fuerzas de Porter.
-
-### Clientes
-
-- [ ] Buscar los clientes potenciales.
 
 ### DAFO
 
@@ -40,4 +48,3 @@
 ## Fase 2
 
 - [ ] Arreglar la estructura empresarial.
-
