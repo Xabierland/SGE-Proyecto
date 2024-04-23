@@ -6,15 +6,15 @@
 
 - [X] Buscar el mercado objetivo.
   - [ ] Buscar nuevas fuentes de analisis tecnicos.
-- [ ] Buscar producto (Resumen orientado al mercado)
-- [ ] Buscar competencia (Resumen orientado al mercado)
-- [ ] Buscar proveedores (Resumen orientado al mercado)
-- [ ] Buscar clientes (Resumen orientado al mercado)
+- [X] Buscar producto (Resumen orientado al mercado)
+- [X] Buscar competencia (Resumen orientado al mercado)
+- [X] Buscar proveedores (Resumen orientado al mercado)
+- [X] Buscar clientes (Resumen orientado al mercado)
 
 ### Competencia
 
-- [ ] Productos de la competencia (Nombre, Descripción, Precio)
-- [ ] Servicios de la competencia (Nombre, Descripción, Precio)
+- [X] Productos de la competencia (Nombre, Descripción, Precio)
+- [X] Servicios de la competencia (Nombre, Descripción, Precio)
 
 ### Proveedores
 
@@ -51,7 +51,7 @@
 
 - [X] Hacer la estructura empresarial.
 - [ ] Arreglar la estructura empresarial.
-- [ ] Calcular los costes de la estructura empresarial.
+- [X] Calcular los costes de la estructura empresarial.
 
 ### Infraestructura
 
