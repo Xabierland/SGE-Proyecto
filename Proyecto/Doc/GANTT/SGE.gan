@@ -1,15 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="SGE" company="SoloG" webLink="https://edu-universidaddelpaisvasco.odoo.com/web" view-date="2024-04-08" view-index="0" gantt-divider-location="613" resource-divider-location="300" version="3.3.3305" locale="es_ES">
+<?xml version="1.0" encoding="UTF-8"?><project name="SGE" company="SoloG" webLink="https://edu-universidaddelpaisvasco.odoo.com/web" view-date="2024-01-29" view-index="0" gantt-divider-location="599" resource-divider-location="300" version="3.3.3307" locale="es_ES">
     <description><![CDATA[Consultoria sobre empresa de sistemas de videovigilancia.]]></description>
-    <view zooming-state="default:4" id="gantt-chart">
+    <view zooming-state="default:6" id="gantt-chart">
         <field id="tpd15" name="Notas" width="20" order="0"/>
-        <field id="tpd3" name="Nombre" width="364" order="0"/>
-        <field id="tpd4" name="Fecha de inicio" width="137" order="1"/>
-        <field id="tpd5" name="Fecha de fin" width="90" order="2"/>
-        <field id="tpd6" name="Duración" width="21" order="3"/>
+        <field id="tpd3" name="Nombre" width="346" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="131" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="86" order="2"/>
+        <field id="tpd6" name="Duración" width="20" order="3"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="filter.dueTodayTasks" value="false"/>
         <option id="filter.overdueTasks" value="false"/>
         <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#ff6600 #cc00cc #cc0000 #00ffff #33ff00]]></option>
     </view>
     <view id="resource-table">
         <field id="0" name="Nombre" width="210" order="0"/>
@@ -39,58 +40,76 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" uid="2dd628438fc441b2910e3c4ee69d496c" name="Fase 1: Análisis del sector de estudio" meeting="false" start="2024-04-09" duration="1" complete="0" expand="true">
-            <depend id="1" type="2" difference="0" hardness="Strong"/>
-            <depend id="2" type="2" difference="0" hardness="Strong"/>
-            <depend id="3" type="2" difference="0" hardness="Strong"/>
-            <task id="4" uid="6b81cf5a544a43b187c4f94f79f71f40" name="Productos ofertados" meeting="false" start="2024-04-09" duration="1" complete="0" expand="true">
+        <task id="0" uid="2dd628438fc441b2910e3c4ee69d496c" name="Fase 1: Análisis del sector de estudio" color="#cc0000" meeting="false" start="2024-01-30" duration="30" complete="0" expand="true">
+            <task id="4" uid="6b81cf5a544a43b187c4f94f79f71f40" name="Productos ofertados" color="#cc0000" meeting="false" start="2024-01-30" duration="5" complete="0" expand="true">
+                <depend id="5" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="5" uid="5efcd46cbc914d759b77db083e03a155" name="Mercado objetivos" color="#cc0000" meeting="false" start="2024-02-04" duration="5" complete="0" expand="true">
+                <depend id="13" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="13" uid="dea3da5b99bf4ad081edd6c048460ca8" name="Proveedores" color="#cc0000" meeting="false" start="2024-02-09" duration="5" complete="0" expand="true">
+                <depend id="6" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="6" uid="956fa74ea6d54de28df03b45c7f3142a" name="Materias primas" color="#cc0000" meeting="false" start="2024-02-14" duration="5" complete="0" expand="true">
+                <depend id="7" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="7" uid="6bcc8ec250bf4475a4e698273b6f36d9" name="Cinco fuerzas de Porter" color="#cc0000" meeting="false" start="2024-02-19" duration="5" complete="0" expand="true">
+                <depend id="8" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="8" uid="f1bde2137370450d87610297ccdae990" name="Competidores" color="#cc0000" meeting="false" start="2024-02-24" duration="5" complete="0" expand="true">
+                <depend id="9" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="1" uid="0a53b85a1668417fa6df779acdffe310" name="Fase 2: Descripción de la empresa" color="#00ffff" meeting="false" start="2024-02-29" duration="15" complete="0" expand="true">
+            <task id="9" uid="cfe07242a28a452faf518ede8ca60a56" name="Estructura empresarial" color="#00ffff" meeting="false" start="2024-02-29" duration="5" complete="0" expand="true">
                 <depend id="11" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="11" uid="a7a0e5dc6252416f9f245ee192885c8f" name="Productos" color="#00ffff" meeting="false" start="2024-03-05" duration="5" complete="0" expand="true">
                 <depend id="12" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="5" uid="5efcd46cbc914d759b77db083e03a155" name="Mercado objetivos" meeting="false" start="2024-04-09" duration="1" complete="0" expand="true"/>
-            <task id="13" uid="dea3da5b99bf4ad081edd6c048460ca8" name="Proveedores" meeting="false" start="2024-04-09" duration="1" complete="0" expand="true"/>
-            <task id="6" uid="956fa74ea6d54de28df03b45c7f3142a" name="Materias primas" meeting="false" start="2024-04-09" duration="1" complete="0" expand="true"/>
-            <task id="7" uid="6bcc8ec250bf4475a4e698273b6f36d9" name="Cinco fuerzas de Porter" meeting="false" start="2024-04-09" duration="1" complete="0" expand="true"/>
-            <task id="8" uid="f1bde2137370450d87610297ccdae990" name="Competidores" meeting="false" start="2024-04-09" duration="1" complete="0" expand="true"/>
-        </task>
-        <task id="1" uid="0a53b85a1668417fa6df779acdffe310" name="Fase 2: Diseño del sistema de gestión" meeting="false" start="2024-04-10" duration="6" complete="0" expand="true">
-            <depend id="2" type="2" difference="0" hardness="Strong"/>
-            <depend id="3" type="2" difference="0" hardness="Strong"/>
-            <task id="9" uid="cfe07242a28a452faf518ede8ca60a56" name="Estructura empresarial" meeting="false" start="2024-04-10" duration="1" complete="0" expand="true"/>
-            <task id="10" uid="c581b309ac4d48c7ac3f30791420f892" name="Procesos" meeting="false" start="2024-04-10" duration="1" complete="0" expand="true"/>
-            <task id="11" uid="a7a0e5dc6252416f9f245ee192885c8f" name="Productos" meeting="false" start="2024-04-10" duration="1" complete="0" expand="true">
-                <depend id="17" type="2" difference="0" hardness="Strong"/>
+            <task id="12" uid="01e3dccccad641cb9a78458864b87c18" name="Servicios" color="#00ffff" meeting="false" start="2024-03-10" duration="5" complete="0" expand="true">
+                <depend id="25" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="12" uid="01e3dccccad641cb9a78458864b87c18" name="Servicios" meeting="false" start="2024-04-10" duration="1" complete="0" expand="true">
-                <depend id="17" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="23" uid="6bf2c2b1e68447389701ffc876e34db7" name="Integracion con Odoo" meeting="false" start="2024-04-11" duration="5" complete="0" expand="true"/>
         </task>
-        <task id="2" uid="a97fe9b6a03b452fa3459c048e555e09" name="Fase 3: Implementación de la solución en Odoo" meeting="false" start="2024-04-16" duration="11" complete="0" expand="true">
-            <depend id="3" type="2" difference="0" hardness="Strong"/>
-            <task id="14" uid="6b7a31280ac64906a990be17ab6dc947" name="Crear la base de datos" meeting="false" start="2024-04-16" duration="1" complete="0" expand="true">
+        <task id="24" uid="b4cbe6b7c7b74424ac70f2f9f5edae42" name="Fase 3: Diseño del sistema de gestión" color="#33ff00" meeting="false" start="2024-03-15" duration="15" complete="0" expand="true">
+            <task id="25" uid="683dd91b417a4c50a16f1c84d373b1ec" name="Procesos" color="#33ff00" meeting="false" start="2024-03-15" duration="5" complete="0" expand="true">
+                <depend id="26" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="26" uid="3d5aa65259e04fbeaccc1be9e738527c" name="Diagrama de procesos" color="#33ff00" meeting="false" start="2024-03-20" duration="5" complete="0" expand="true">
+                <depend id="27" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="27" uid="5da4782b582d4854bfa9248651da9d1e" name="Modulos de Odoo" color="#33ff00" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true">
+                <depend id="14" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="2" uid="a97fe9b6a03b452fa3459c048e555e09" name="Fase 4: Implementación de la solución en Odoo" color="#ff6600" meeting="false" start="2024-03-30" duration="17" complete="0" expand="true">
+            <task id="14" uid="6b7a31280ac64906a990be17ab6dc947" name="Crear la base de datos" color="#ff6600" meeting="false" start="2024-03-30" duration="1" complete="0" expand="true">
                 <depend id="15" type="2" difference="0" hardness="Strong"/>
-                <depend id="17" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="15" uid="233dd712f72a40d0912f94dc7a18e345" name="Instalar modulos" meeting="false" start="2024-04-17" duration="2" complete="0" expand="true">
+            <task id="15" uid="233dd712f72a40d0912f94dc7a18e345" name="Instalar modulos" color="#ff6600" meeting="false" start="2024-03-31" duration="2" complete="0" expand="true">
                 <depend id="16" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="16" uid="76d4cd8d31da4d7faf5635ff78f4dfe1" name="Configurar modulos" meeting="false" start="2024-04-19" duration="4" complete="0" expand="true">
+            <task id="16" uid="76d4cd8d31da4d7faf5635ff78f4dfe1" name="Configurar modulos" color="#ff6600" meeting="false" start="2024-04-02" duration="4" complete="0" expand="true">
+                <depend id="17" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="17" uid="e3b26da898864f63afe0e5139257e350" name="Crear los datos necesarios" color="#ff6600" meeting="false" start="2024-04-06" duration="4" complete="0" expand="true">
                 <depend id="18" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="18" uid="3459e6d11fba49acaf21cc03d290812b" name="Automatizar los procesos" color="#ff6600" meeting="false" start="2024-04-10" duration="4" complete="0" expand="true">
                 <depend id="19" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="19" uid="d2f9cb8b1cf6403b8edea283ced34fa0" name="Configurar los informes" color="#ff6600" meeting="false" start="2024-04-14" duration="1" complete="0" expand="true">
                 <depend id="20" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="17" uid="e3b26da898864f63afe0e5139257e350" name="Crear los datos necesarios" meeting="false" start="2024-04-17" duration="4" complete="0" expand="true">
-                <depend id="18" type="2" difference="0" hardness="Strong"/>
-                <depend id="19" type="2" difference="0" hardness="Strong"/>
+            <task id="20" uid="d4125fcda20f4338a28bfd5828725653" name="Asignar los permisos" color="#ff6600" meeting="false" start="2024-04-15" duration="1" complete="0" expand="true">
+                <depend id="21" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="18" uid="3459e6d11fba49acaf21cc03d290812b" name="Automatizar los procesos" meeting="false" start="2024-04-23" duration="4" complete="0" expand="true"/>
-            <task id="19" uid="d2f9cb8b1cf6403b8edea283ced34fa0" name="Configurar los informes" meeting="false" start="2024-04-23" duration="1" complete="0" expand="true"/>
-            <task id="20" uid="d4125fcda20f4338a28bfd5828725653" name="Asignar los permisos" meeting="false" start="2024-04-23" duration="1" complete="0" expand="true"/>
         </task>
-        <task id="3" uid="df1614883d314f75bde2c0a6e6995b61" name="Fase 4: Presentación del resultado al cliente" meeting="false" start="2024-04-27" duration="4" complete="0" expand="true">
-            <task id="21" uid="e0cf22074998495f96f64c75b5ebeb76" name="Realizar presentación" meeting="false" start="2024-04-27" duration="2" complete="0" expand="true"/>
-            <task id="22" uid="b70f3e4800d543dc815fcbdfc1d4b2d0" name="Realizar demostracion" meeting="false" start="2024-04-27" duration="4" complete="0" expand="true"/>
+        <task id="3" uid="df1614883d314f75bde2c0a6e6995b61" name="Fase 5: Presentación del resultado al cliente" color="#cc00cc" meeting="false" start="2024-04-16" duration="6" complete="0" expand="true">
+            <task id="21" uid="e0cf22074998495f96f64c75b5ebeb76" name="Realizar presentación" color="#cc00cc" meeting="false" start="2024-04-16" duration="2" complete="0" expand="true">
+                <depend id="22" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="22" uid="b70f3e4800d543dc815fcbdfc1d4b2d0" name="Realizar demostracion" color="#cc00cc" meeting="false" start="2024-04-18" duration="4" complete="0" expand="true"/>
         </task>
     </tasks>
     <resources>
@@ -110,10 +129,8 @@
         <allocation task-id="7" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="8" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="9" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
-        <allocation task-id="10" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="11" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="12" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
-        <allocation task-id="23" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="16" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="17" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="2" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
